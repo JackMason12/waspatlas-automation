@@ -1,9 +1,9 @@
 port=3000 #port server will be hosted on
 ip=localhost #ip server will be hosted on
 
-base_dir="~/waspatlas_2/" #directory of website files
+base_dir="waspatlas_2/" #directory of website files
 
-serv_script_dir="script/waspatlas_2_server_pl" #location of server script in base dir
+serv_script_dir="script/waspatlas_2_server.pl" #location of server script in base dir
 
 db_dump_fn="wa2.sql" #name of database dump file
 db_dump_dir="$base_dir$db_dump_fn" #path to the db dump file
